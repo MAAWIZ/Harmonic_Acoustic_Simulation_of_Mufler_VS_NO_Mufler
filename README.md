@@ -100,11 +100,3 @@ $$
 * **Straight Pipe:** Low static pressure drop across the $500\text{ mm}$ length; smooth flow field without flow separation.
 * **Muffler Pipe:** Higher static pressure drop (backpressure) due to recirculation zones, turbulent eddies, and sudden expansion/contraction loss coefficients ($K_{ex}$ and $K_{con}$).
 
----
-
-## File & Project Structure
-
-* `geometry/` — CAD files (`.scdoc`, `.step`) for straight pipe and muffler pipe geometries.
-* `mesh/` — ANSYS Meshing files (`.msh`) with inflation layers and volumetric refinement.
-* `simulation/` — ANSYS Fluent / Acoustic Harmonic Analysis project files (`.wbpj`).
-* `results/` — Sound Pressure Level (SPL) plots, Transmission Loss curves, and audio clips (`No_Mufler_Sound.wav`, `Mufler_Sound.wav`).
